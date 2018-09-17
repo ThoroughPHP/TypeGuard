@@ -25,6 +25,10 @@ final class TypeTest extends TestCase
             ['NULL', null, true],
             ['ArrayAccess', new \ArrayIterator, true],
             ['Countable', new \ArrayIterator, true],
+            ['mixed', 'foo', true],
+            ['mixed', 1, true],
+            ['mixed', null, true],
+            ['mixed', new \ArrayIterator, true],
         ];
     }
 }

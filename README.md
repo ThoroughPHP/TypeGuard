@@ -12,19 +12,19 @@ TypeGuard can validate:
 - Scalar types: `string`, `integer`, etc.:
 
 ```php
-(new \TypeGuard\Type('string'))->match('foo'); // => true
+(new \TypeGuard\Guard('string'))->match('foo'); // => true
 ```
 
 - Object types: `ArrayAccess`, `stdClass`, etc.:
 
 ```php
-(new \TypeGuard\Type('stdClass'))->match(new stdClass()); // => true
+(new \TypeGuard\Guard('stdClass'))->match(new stdClass()); // => true
 ```
 
 - Union types: `string|integer`:
 
 ```php
-$guard = new \TypeGuard\Type('string|integer');
+$guard = new \TypeGuard\Guard('string|integer');
 $guard->match('foo'); // => true
 $guard->match(1); // => true
 ```
@@ -32,12 +32,12 @@ $guard->match(1); // => true
 - Intersection types: `ArrayAccess&Countable`:
 
 ```php
-(new \TypeGuard\Type('ArrayAccess&Countable'))->match(new ArrayIterator()); // => true
+(new \TypeGuard\Guard('ArrayAccess&Countable'))->match(new ArrayIterator()); // => true
 ```
 
 - Optional types: `?string`:
 
 ```php
-(new \TypeGuard\Type('?string'))->match(null); // => true
+(new \TypeGuard\Guard('?string'))->match(null); // => true
 ```
 

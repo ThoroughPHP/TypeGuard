@@ -18,6 +18,10 @@ final class Type implements TypeInterface
      */
     public function match($parameter): bool
     {
+        if ('mixed' === $this->typeName) {
+            return true;
+        }
+
         $type = \gettype($parameter);
 
         return $type === 'object'
