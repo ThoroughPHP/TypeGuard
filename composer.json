@@ -1,0 +1,30 @@
+{
+    "name": "sevavietl/type-guard",
+    "description": "PHP type validator",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "php-coveralls/php-coveralls": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "phpstan/phpstan": "^0.10.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TypeGuard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TypeGuard\\Test\\": "test/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevavietl",
+            "email": "sevavietl@gmail.com"
+        }
+    ]
+}
