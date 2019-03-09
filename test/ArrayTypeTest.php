@@ -1,13 +1,13 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\ArrayType;
-use TypeGuard\IntersectionType;
-use TypeGuard\Type;
-use TypeGuard\TypeInterface;
-use TypeGuard\UnionType;
+use ThoroughPHP\TypeGuard\ArrayType;
+use ThoroughPHP\TypeGuard\IntersectionType;
+use ThoroughPHP\TypeGuard\Type;
+use ThoroughPHP\TypeGuard\TypeInterface;
+use ThoroughPHP\TypeGuard\UnionType;
 
 final class ArrayTypeTest extends TestCase
 {

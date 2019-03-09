@@ -1,9 +1,9 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\Type;
+use ThoroughPHP\TypeGuard\Type;
 
 final class TypeTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\IntersectionType;
+use ThoroughPHP\TypeGuard\IntersectionType;
 
 final class IntersectionTypeTest extends TestCase
 {

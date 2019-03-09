@@ -1,8 +1,8 @@
 <?php
 
-namespace TypeGuard;
+namespace ThoroughPHP\TypeGuard;
 
-final class Guard
+final class TypeGuard
 {
     /** @var TypeInterface */
     private $type;

@@ -1,18 +1,18 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\Guard;
+use ThoroughPHP\TypeGuard\TypeGuard;
 
-final class GuardTest extends TestCase
+final class TypeGuardTest extends TestCase
 {
     /**
      * @dataProvider matchDataProvider
      */
     public function testMatch(string $stringRepresentation, $parameter): void
     {
-        $this->assertTrue((new Guard($stringRepresentation))->match($parameter));
+        $this->assertTrue((new TypeGuard($stringRepresentation))->match($parameter));
     }
 
     public function matchDataProvider(): array

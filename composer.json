@@ -1,9 +1,9 @@
 {
-    "name": "sevavietl/type-guard",
+    "name": "thorough-php/type-guard",
     "description": "PHP type validator",
     "type": "library",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3",
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TypeGuard\\": "src/"
+            "ThoroughPHP\\TypeGuard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TypeGuard\\Test\\": "test/"
+            "ThoroughPHP\\TypeGuard\\Test\\": "test/"
         }
     },
     "license": "MIT",

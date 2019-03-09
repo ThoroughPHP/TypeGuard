@@ -1,9 +1,9 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\UnionType;
+use ThoroughPHP\TypeGuard\UnionType;
 
 final class UnionTypeTest extends TestCase
 {

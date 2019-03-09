@@ -1,10 +1,10 @@
 <?php
 
-namespace TypeGuard\Test;
+namespace ThoroughPHP\TypeGuard\Test;
 
 use PHPUnit\Framework\TestCase;
-use TypeGuard\OptionalType;
-use TypeGuard\Type;
+use ThoroughPHP\TypeGuard\OptionalType;
+use ThoroughPHP\TypeGuard\Type;
 
 final class OptionalTypeTest extends TestCase
 {

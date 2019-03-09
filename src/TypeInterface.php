@@ -1,6 +1,6 @@
 <?php
 
-namespace TypeGuard;
+namespace ThoroughPHP\TypeGuard;
 
 interface TypeInterface
 {
